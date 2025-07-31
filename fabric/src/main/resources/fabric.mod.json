@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "button_packet_id_fix",
+  "version": "${version}",
+  "name": "Button Packet ID Fix",
+  "description": "In the vanilla, stonecutters couldn't handle more than 256 recipes, this mod fixes that.",
+  "authors": [
+    "ConcerroX"
+  ],
+  "contact": {
+    "sources": "https://github.com/ConcerroX/button-packet-id-fix/"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/button_packet_id_fix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "concerrox.buttonpacketidfix.fabric.ButtonPacketIdFixFabric"
+    ]
+  },
+  "mixins": [
+    "button_packet_id_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

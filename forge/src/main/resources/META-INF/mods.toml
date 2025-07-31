@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "button_packet_id_fix"
+version = "${version}"
+displayName = "Button Packet ID Fix"
+authors = "ConcerroX"
+description = '''
+In the vanilla, stonecutters couldn't handle more than 256 recipes, this mod fixes that.
+'''
+#logoFile = ""
+
+[[dependencies.button_packet_id_fix]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.button_packet_id_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
