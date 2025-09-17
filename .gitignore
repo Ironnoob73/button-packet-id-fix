@@ -1,4 +1,5 @@
 # Project exclude paths
+/.idea/
 /.gradle/
 /build/
 /common/.gradle/
@@ -7,6 +8,8 @@
 /fabric/.gradle/
 /fabric/build/
 /fabric/build/classes/java/main/
+/fabric/run
 /forge/.gradle/
 /forge/build/
 /forge/build/classes/java/main/
+/forge/run
