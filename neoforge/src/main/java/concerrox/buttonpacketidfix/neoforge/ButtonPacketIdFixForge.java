@@ -1,6 +1,6 @@
-package concerrox.buttonpacketidfix.forge;
+package concerrox.buttonpacketidfix.neoforge;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 import concerrox.buttonpacketidfix.ButtonPacketIdFix;
 

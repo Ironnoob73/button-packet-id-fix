@@ -8,8 +8,8 @@
 /fabric/.gradle/
 /fabric/build/
 /fabric/build/classes/java/main/
-/fabric/run
-/forge/.gradle/
-/forge/build/
-/forge/build/classes/java/main/
-/forge/run
+/fabric/run/
+/neoforge/.gradle/
+/neoforge/build/
+/neoforge/build/classes/java/main/
+/neoforge/run/
